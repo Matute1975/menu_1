@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3.6rem;
+    background-color: #F7F7F7;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    padding: 0 70px;;
+}
+nav{
+    width: 80%;
+}
+div{
+    display:flex;
+    align-items: center;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    padding-right:25px; 
+}
+.icono{
+    width: 25px;
+    margin: 10px;
+}
